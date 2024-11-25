@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepositoryStats.Cli", "RepositoryStats.Cli\RepositoryStats.Cli.csproj", "{55E64FB5-BC10-4311-AF02-421794E9E82E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepositoryStats.GitHubApi", "RepositoryStats.GitHubApi\RepositoryStats.GitHubApi.csproj", "{EE7C40A6-948C-415D-8A1C-164C5F9608F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepositoryStats.Core", "RepositoryStats.Core\RepositoryStats.Core.csproj", "{F03C9900-A544-4F4E-9DB6-DF08B8ADD789}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepositoryStats.Core.Test", "RepositoryStats.Core.Test\RepositoryStats.Core.Test.csproj", "{30ECEA8E-BD43-434A-9029-8D8ABD53F568}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{55E64FB5-BC10-4311-AF02-421794E9E82E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55E64FB5-BC10-4311-AF02-421794E9E82E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55E64FB5-BC10-4311-AF02-421794E9E82E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55E64FB5-BC10-4311-AF02-421794E9E82E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE7C40A6-948C-415D-8A1C-164C5F9608F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE7C40A6-948C-415D-8A1C-164C5F9608F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE7C40A6-948C-415D-8A1C-164C5F9608F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE7C40A6-948C-415D-8A1C-164C5F9608F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F03C9900-A544-4F4E-9DB6-DF08B8ADD789}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F03C9900-A544-4F4E-9DB6-DF08B8ADD789}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F03C9900-A544-4F4E-9DB6-DF08B8ADD789}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F03C9900-A544-4F4E-9DB6-DF08B8ADD789}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30ECEA8E-BD43-434A-9029-8D8ABD53F568}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30ECEA8E-BD43-434A-9029-8D8ABD53F568}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30ECEA8E-BD43-434A-9029-8D8ABD53F568}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30ECEA8E-BD43-434A-9029-8D8ABD53F568}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
