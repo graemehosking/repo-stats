@@ -58,7 +58,8 @@ namespace RepositoryStats.Core.Test.Steps
             // Assert
             Assert.That(result.IsSuccess);
         }
-
+        
+        #pragma warning disable CS1998
         [Test]
         public async Task Execute_WhenFileContentIsNull_ShouldThrow()
         {
@@ -66,5 +67,6 @@ namespace RepositoryStats.Core.Test.Steps
             Assert.ThrowsAsync<ArgumentNullException>(async () => 
                 await _calculateFileStatisticsStep.Execute(null!));
         }
+        #pragma warning restore CS1998
     }
 }
