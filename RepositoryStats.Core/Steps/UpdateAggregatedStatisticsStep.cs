@@ -9,10 +9,6 @@ public class UpdateAggregatedStatisticsStep
     private readonly Dictionary<char, int> _aggregatedStatistics = new ();
     private readonly SemaphoreSlim _aggregatedStatisticsLock = new(1, 1);
     
-    // public UpdateAggregatedStatisticsStep()
-    // {
-    // }
-    
     public IDictionary<char, int> GetAggregatedStatistics()
     {
         try
